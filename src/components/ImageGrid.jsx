@@ -124,7 +124,7 @@ const ImageGrid = () => {
             }}
             style={{ position: "absolute", top: "50%", right: "10px" }}
           >
-            Right
+            ➡️
           </button>
         </div>
       )}
