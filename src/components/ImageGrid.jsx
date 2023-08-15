@@ -55,6 +55,7 @@ const ImageGrid = () => {
         {
           isImageLoading && <h3 style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)", color: "white", zIndex: "99"}}>Loading...</h3>
         }
+        //to download
         <button onClick={() => downloadImage(`http://via.placeholder.com/3900x3900?text=${previewIndex}`, 'name')}>Download</button>
       <button onClick={()=>{
         if(previewIndex>1){
